@@ -11,8 +11,9 @@ body {
   width: 50px;
   border: solid 5px;
   border-color: #ef2b7b;
-  border-radius: 10%;
+  border-radius: 4px;
   animation: loading 2s ease-in-out infinite;
+  box-shadow: 0 0 8px #ef2b7b, 0 0 8px palevioletred;
 }
 .cube:hover {
   animation-play-state: paused;
