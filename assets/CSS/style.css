@@ -1,3 +1,18 @@
 body {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.cube {
+  height: 50px;
+  width: 50px;
+  border: solid 5px;
+  border-color: #ef2b7b;
+  border-radius: 10%;
+  animation: animation 4s ease infinite;
+}
+@keyframes animation {
 }
